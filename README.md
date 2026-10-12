@@ -2,7 +2,9 @@
 
 # hey, I'm Elifnur 👋
 
-**Computer Engineering Student · Backend Developer · AI Enthusiast**
+**Computer Engineering Student · Perception & Backend Systems**
+
+[Portfolio](https://elifnurtabala.dev)
 
 </div>
 
@@ -10,17 +12,14 @@
 
 ### About Me
 
-I'm a computer engineering student who enjoys building things that actually work — from production-ready backend systems to AI-powered applications.
-
-I like working on projects that combine solid engineering with creative problem solving.
+Fourth-year computer engineering student at Tekirdağ Namık Kemal University. I like building systems that run on real hardware and real data, and I write down what I measured and what I did not.
 
 ---
 
 ### What I'm Working On
 
-- 🚗 **RoboTaxi @ Teknofest** — Autonomous vehicle system · ROS · Python · Gazebo · OpenCV *(in progress)*
-- 🧥 **[DRAPE](https://github.com/eliftb/drape)** — AI-powered virtual outfit try-on with Claude Vision, MediaPipe AR and emotion detection
-- 🛒 **[Digital Marketplace Backend](https://github.com/eliftb/digital-marketplace-backend)** — Spring Boot marketplace with JWT auth, role-based access, order & payment systems
+- 🌱 **[SubScan](https://github.com/eliftb/SubScan)** — capstone project: classifying soil pests from vibration signals. Synthetic-data pipeline is done (FFT features + 1D CNN); sensor hardware and field data collection come next.
+- 🚗 **RoboTaxi @ TEKNOFEST** — team autonomous-vehicle stack on ROS2: lane detection, LiDAR obstacle detection, sign detection, decision state machine. Team repo: [SahiOtonom2](https://github.com/eliftb/SahiOtonom2).
 
 ---
 
@@ -36,9 +35,10 @@ I like working on projects that combine solid engineering with creative problem 
 
 **AI / Robotics**
 
-![Claude](https://img.shields.io/badge/Claude_Vision-D97706?style=flat-square&logo=anthropic&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-4285F4?style=flat-square&logo=google&logoColor=white)
-![ROS](https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ros&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![ROS](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
 
 **Infrastructure**
 
@@ -50,16 +50,18 @@ I like working on projects that combine solid engineering with creative problem 
 
 ### Featured Projects
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| 🚗 RoboTaxi *(private)* | Autonomous vehicle system for Teknofest 2026. ROS-based perception pipeline, Gazebo simulation | ROS · Python · Gazebo |
-| 🧥 [DRAPE](https://github.com/eliftb/drape) | AI-powered virtual outfit try-on. Upload a garment → Claude Vision analyzes it → MediaPipe overlays it on your body in real time | Node.js · Claude API · MediaPipe · face-api.js |
-| 🛒 [Digital Marketplace Backend](https://github.com/eliftb/digital-marketplace-backend) | Full marketplace backend for local producers. JWT auth, role-based access, orders, payments, reviews, admin panel | Spring Boot · PostgreSQL · Docker · JWT |
+| Project | What it is | Stack |
+|---------|------------|-------|
+| [tr-emotion-class](https://github.com/eliftb/tr-emotion-class) | 7-class Turkish emotion classifier, 90.2% accuracy on a held-out set. Includes a labeling UI, inter-annotator agreement, and a measured finding on why one class (`contempt`) cannot be learned from the available data | Python · scikit-learn · Flask |
+| [tr-payout-reconciliation](https://github.com/eliftb/tr-payout-reconciliation) | Local tool that audits delivery-platform payouts for restaurants and attributes each missing lira to one cause. Tests and CI; verified on generated sample data | Python · SQLite |
+| [video-action-recognition](https://github.com/eliftb/video-action-recognition) | SlowFast, VideoMAE, TimeSformer and I3D compared on the same video: predictions, speed and memory | Python · PyTorch |
+| [Hasad](https://github.com/eliftb/digital-marketplace-hasad) | Full-stack marketplace for local producers (course project): JWT roles, Flyway migrations, Docker, Next.js frontend | Java · Spring Boot · PostgreSQL · Next.js |
+| [DRAPE](https://github.com/eliftb/drape) | Virtual outfit try-on: Claude Vision for garment analysis, MediaPipe pose for the AR overlay | Node.js · MediaPipe |
 
 ---
 
 <div align="center">
 
-*Built with curiosity and too much caffeine* ☕
+[elifnurtabala.dev](https://elifnurtabala.dev)
 
 </div>
